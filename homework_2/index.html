@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Homework_2</title>
+		<meta charset="utf-8"> 
+		<style>
+			* {border: 1px solid black;
+			
+			}
+		</style>
+	</head>
+	<body>
+		<h2>Таблица</h2>
+		<caption>Таблица еженедельных расходов и доходов</caption>
+		<table>
+			<thead>
+				<tr>
+					<td rowspan="2">Неделя</td>
+					<td colspan="5">Расходы</td>
+					<td colspan="2">Доходы</td>
+				</tr>
+				<tr>
+					<td>Питание</td>
+					<td>Проживание</td>
+                	<td>Транспорт</td>
+					<td>Одежда</td>
+					<td>Развлечения</td>
+					<td>Стипендия</td>
+					<td>Зарплата</td>
+				</tr>
+			</thead>
+			<tfoot>
+				<tr>
+					<td>Общий итог</td>
+					<td colspan="5">70500</td>
+					<td colspan="2">85000</td>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>3000</td>
+					<td>500</td>
+                	<td>300</td>
+					<td rowspan="6">8000</td>
+					<td rowspan="6">30000</td>
+					<td rowspan="6">5000</td>
+					<td rowspan="6">80000</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>4300</td>
+					<td>800</td>
+                	<td>200</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>2500</td>
+					<td>3200</td>
+                	<td>350</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>1900</td>
+					<td>4000</td>
+                	<td>200</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>5100</td>
+					<td>2600</td>
+                	<td>300</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>2200</td>
+					<td>900</td>
+                	<td>150</td>
+				</tr>
+				<tr>
+					<td>Итог</td>
+					<td>19000</td>
+					<td>12000</td>
+               		<td>1500</td>
+					<td>8000</td>
+					<td>30000</td>
+					<td>5000</td>
+					<td>80000</td>
+				</tr>
+			</tbody>
+		</table>
+		<form action="/">
+			<h2>Формы</h2>
+				<h3>Введите данные</h3>
+				    <label>Введите логин<input type="text" name="..."></label><br><br>
+					<label>Введите пароль<input type="password" name="..."></label><br><br>
+					<label>Выберите из нижеперечисленного<br>
+						<input type="checkbox" name="..." value="...">Я люблю кошек<br>
+						<input type="checkbox" name="..." value="..."> Я люблю собак</label><br><br>
+					<label>Выберите из нижеперечисленного<br>
+						<input type="radio" name="..." value="...">Я оптимист<br>
+						<input type="radio" name="..." value="...">Я пессимист<br><br>
+					<label>Загрузите свое фото<input type="file" name="..."></label><br><br>
+					<p><b>Для сброса полей-нажмите</b></p>
+						<input type="reset" name="..."><br>
+					<p><b>Для отправки данных-нажмите</b></p>
+						<input type="submit" name="..."><br>
+					<p><b>...</b></p>
+						<input type="button" name="..."><br>
+					<label>Введите адрес электронной почты<input type="email" name="..."></label><br><br>
+					<label>Поиск<input type="search" name="..."></label><br><br>
+					<label>Введите номер телефона<input type="tel" name="..."></label><br><br>
+					<label>Введите адрес вашего сайта<input type="url" name="..."></label><br><br>
+					<label>Ваше любимое число<input type="number" name="..." min="5" max="20" step="1"></label><br><br>
+					<label>Оцените ваше настроение<input type="range" name="..." min="1" max="40" step="5"></label><br><br>
+					<p><b>Выберите комитет</b></p>
+						<select name="..." size="5" multiple>
+    						<option value="...">Социально-бытовой комитет</option>
+    						<option value="...">Культмассовый комитет</option>
+    						<option value="...">English Club</option>
+    						<option value="...">ЦВСК</option>
+    						<option value="...">Сводный Студенческий Отряд "Плехановец"</option>
+    						<option value="...">Учебно-Административный Комитет</option>
+    						<option value="...">КВН</option>
+    						<option value="...">Спортивный комитет</option>
+    						<option value="...">Студенческое Творческое Общество</option>
+    						<option value="...">Тренинг-Центр</option>
+    						<option value="...">IT Center</option>
+						</select>
+		</form>
+	</body>
+</html>
